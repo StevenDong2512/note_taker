@@ -8,8 +8,8 @@ router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'))
 });
 
-//HTML GET LANDINGPAGE
-router.get('/', (req, res) => {
+//HTML GET NOTEPAGE
+router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/notes.html'))
 });
 
