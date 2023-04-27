@@ -1,6 +1,17 @@
 const router = require("express").Router();
+const path = require('path');
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
+
+//HTML GET HOMEPAGE
+router.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'))
+});
+
+//HTML GET LANDINGPAGE
+router.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/notes.html'))
+});
 
 // API GET
 router.get('/api/notes', async (req, res) => {
@@ -32,3 +43,4 @@ router.delete('/api/notes/:id', (req, res) => {
     res.json("Your note now is deleted.");
 });
 
+module.exports = router;
