@@ -8,7 +8,7 @@ The porpuse of this project is to build a website app that allows users to take 
 ## Installation
 ## User installation
 Please follow the below link for the deployed app: 
-
+https://notetakersd2512.herokuapp.com/
 ## Developer installation
 1. install vs code.
 2. clone repo and download npm. 
@@ -18,15 +18,22 @@ Please follow the below link for the deployed app:
 
 
 ## Usage
-<!-- 
-![Questions from terminal](./assets/question.png)
 
-![jest test passed](./assets/test.png)
+Homepage with CTA in placed
 
-![logo generated](./assets/logoPreview.png) -->
+![Homepage with CTA in placed](./Assets/Homepage.png)
+
+Typed in the first note then click the save button
+![Typed in the first note then click the save button](./Assets/LandingPage1.png)
+
+Click the delete button on the Goodbye note from sidebar
+![Click the delete button on the Goodbye note from sidebar](./Assets/Landingpage2.png)
+
+The second note was deleted
+![The second note was deleted](./Assets/Landingpage3.png)
 
 
-<!-- [Demo Video](https://drive.google.com/file/d/1Wbpmt4eAk0evLLQtvsxzjz9V5mHwHuYZ/view) -->
+[Demo Video](https://drive.google.com/file/d/12BKHqrBW6yeeywx2HnPTn1TqSgd7d69R/view) CLICK ME!!!
 
 ## Credits
 
